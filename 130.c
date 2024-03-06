@@ -6,7 +6,6 @@
 //
 #include <stdio.h>
 
-// Kullanıcıdan sayı alarak ekrana yazdıran fonksiyon
 void sayiAl() {
     int sayi;
 
@@ -24,7 +23,7 @@ void sayiAl() {
 }
 
 int main() {
-    sayiAl(); // Fonksiyon çağrısı
+    sayiAl(); 
 
     return 0;
 }
