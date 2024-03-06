@@ -19,14 +19,12 @@ int main() {
 
     printf("Pozitif bir tam sayi girin: ");
     scanf("%d", &sayi);
-
-    // Girilen sayının pozitif olup olmadığını kontrol etme
+    
     if (sayi <= 0) {
         printf("Girdiginiz sayi pozitif bir tam sayi degildir.\n");
         return 0;
     }
 
-    // Tek mi çift mi olduğunu kontrol eden fonksiyonu çağırma
     tekCift(sayi);
 
     return 0;
