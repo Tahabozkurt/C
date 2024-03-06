@@ -20,7 +20,6 @@ int main() {
     double taban;
     int us;
 
-    // Kullanıcıdan taban ve üs değerlerini alma
     printf("Taban degerini giriniz: ");
     scanf("%lf", &taban);
 
